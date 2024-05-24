@@ -1,0 +1,42 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:80%;
+    margin:auto;
+}
+
+.title{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type=range]{
+    width:100%;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tenureContainer{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.tenure{
+    width:50px;
+    border-radius: 20px;
+    padding:10px;
+    background-color: rgb(200,200,200);
+    border:none;
+}
+
+.selected{
+    color:white;
+    background-color: rgb(15, 15, 230);
+}
+
+
